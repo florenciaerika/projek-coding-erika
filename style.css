@@ -1,0 +1,43 @@
+header {
+    border: 3px solid blue;
+    padding: 100px;
+    text-align: center;
+}
+
+header h1 {
+    color: black;
+    font-style: oblique;
+}
+
+header p {
+    font-style: italic;
+}
+
+header img {
+    width: 100%;
+    border: 3px  gold;
+    border-radius: 1%;
+    box-shadow: 3px 3px 35px yellow;
+}
+
+header img:hover {
+    transform: scale(0.9);
+    transition: all .3s ease-in-out;
+}
+
+header button {
+    display: block;
+    margin: 30px auto;
+    padding: 12px 30px;
+    background-color: burlywood;
+    color: white;
+    border: none;
+}
+
+header button:hover {
+    background-color: white;
+    color: chocolate;
+    border: 2px yellow;
+    transform: 0.55;
+    transition: all .4s ease-in-out;
+}
